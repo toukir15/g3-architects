@@ -2,9 +2,7 @@
 :root {
   --primary-color: #ff900e;
   --secondary-color: #727272;
-  --tertiary--color: #131313;
   --primary-background: #fff4e7;
-  --primary-border: #ff900e;
 }
 * {
   margin: 0;
@@ -26,6 +24,7 @@ body {
   font-weight: 400;
 }
 /* title style  */
+
 .banner__title,
 .feature__title,
 .experience__title,
@@ -35,6 +34,9 @@ body {
 .question__title {
   margin-bottom: 1.5rem;
   font-size: 2rem;
+}
+.nav__title {
+  color: var(--secondary-color);
 }
 
 .banner__title {
@@ -108,6 +110,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+}
+#nav__text--style {
+  font-size: 3rem;
+  color: var(--primary-color);
 }
 
 nav > ul {
